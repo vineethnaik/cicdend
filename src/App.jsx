@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 
 export default function App() {
   return (
-    <Router basename="/hospital-frontend/">
+    <Router basename="/cicdend/">
       <Navbar />
       <Routes>
         <Route path="/" element={<Login />} />
